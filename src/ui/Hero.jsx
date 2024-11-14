@@ -7,6 +7,7 @@ const StyledSection = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  padding-bottom: 6rem;
 `;
 
 const StyledContentDiv = styled.div`

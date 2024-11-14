@@ -17,7 +17,7 @@ const types = {
 
 const shapes = {
   normal: css`
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-tiny);
   `,
   pill: css`
     border-radius: 24px;

@@ -85,7 +85,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--color-gray);
+  color: var(--color-grayishViolet);
   transition: color 0.3s, background-color 0.3s;
   min-height: 100vh;
   line-height: 1.5;
@@ -130,7 +130,14 @@ button:has(svg) {
 a {
   color: inherit;
   text-decoration: none;
+  color: var(--color-grayishViolet);
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
+
+   a:hover {
+    color: var(--color-cyan);
+  }
 
 ul {
   list-style: none;

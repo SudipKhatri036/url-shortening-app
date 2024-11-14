@@ -31,7 +31,7 @@ const Nav = styled.nav`
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--color-darkViolet);
-    padding: 3rem;
+    padding: 3rem !important;
 
     &.nav--active {
       top: 70%;
@@ -50,7 +50,6 @@ const NavList = styled.ul`
 `;
 
 const NavLinks = styled.a`
-  font-weight: 700;
   transition: all 0.3s ease;
 
   &:hover {
